@@ -1,4 +1,4 @@
-import { books, books2, libraries, users } from "../db";
+import { books, libraries, users } from "../db";
 
 // Resolvers define how to fetch the types defined in your schema.
 // This resolver retrieves books from the "books" array above.
@@ -18,7 +18,7 @@ const resolvers = {
         books(parent) {
             // Filter the hardcoded array of books to only include
             // books that are located at the correct branch
-            return books2.filter((book) => book.branch === parent.branch);
+            return books.filter((book) => book.branch === parent.branch);
         },
     },
     Book: {

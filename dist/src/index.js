@@ -15,8 +15,8 @@ async function startServer() {
     app.use(cors());
     await server.start();
     app.use("/graphql", expressMiddleware(server));
-    app.listen(8000, () => {
-        console.log(`🚀 Server ready at http://localhost:8000/graphql`);
+    app.listen(4000, () => {
+        console.log(`🚀 Server ready at http://localhost:4000/graphql`);
     });
 }
 startServer();

@@ -1,15 +1,15 @@
-const books = [
-    {
-        title: "The Awakening",
-        author: "Kate Chopin",
-    },
-    {
-        title: "City of Glass",
-        author: "Paul Auster",
-    },
-];
+// const books = [
+//     {
+//         title: "The Awakening",
+//         author: "Kate Chopin",
+//     },
+//     {
+//         title: "City of Glass",
+//         author: "Paul Auster",
+//     },
+// ];
 
-const books2 = [
+const books = [
     {
         title: "The Awakening",
         author: "Kate Chopin",
@@ -42,4 +42,4 @@ const users = [
     },
 ];
 
-export { books, users, books2, libraries };
+export { books, users, libraries };
